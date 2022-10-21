@@ -1,0 +1,21 @@
+{
+	"projects": [
+		{
+			"img-src": "godot.png",
+			"name": "Google Review Scraper",
+			"info": "Fall 2020",
+			"tags": ["personal", "abbas"],
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/googleScraper"
+				},
+				{
+					"to": "youtube",
+					"url": "https://youtube.com"
+				}
+			]
+		}
+	]
+}

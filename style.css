@@ -31,6 +31,7 @@ body {
 .picture-div img{
 	width: 200px;
 	padding: 10px 0px;
+	border-radius: 50%;
 }
 
 .name {
@@ -75,7 +76,7 @@ body {
 }
 
 .link a:hover {
-	color:rgb(255, 255, 255);
+	color: rgb(140, 102, 102);
 	display: block;
 	text-decoration: none;
 }
@@ -118,6 +119,8 @@ li {
 	padding: 10px;
 	/* border-right-style: solid; */
 	border-width: 1px;
+	min-width: 25px;
+	text-align: center;
 }
 
 li a {
@@ -145,25 +148,38 @@ li:hover {
 }
 
 .project-div {
-	border: 2px solid rgba(0, 0, 0, 0.8);
-	border-radius: 6px;
 	font-size: 30px;
 	text-align: center;
-	padding: 20px 40px;
+	padding: 20px 15px;
+	box-shadow: 1px 1px 5px 1px rgba(20,20,20,0.4);
 }
 
 .project-div img {
 	width: 100%;
 	border: 1px solid black;
+	display: none;
 }
 
 .project-bottom-div {
 	/* padding: 0 30px; */
 }
 
-.project-name {
+.project-name-div {
+	/* width: 100%; */
+	background-color: #c2c1ad;
 	font-size: 24px;
-	font-weight: bold;
+}
+
+.project-info-div {
+	/* background-color: rgb(232, 221, 221); */
+	/* width: 80%;
+	margin: auto; */
+}
+
+.project-info {
+	margin-top: 2px;
+	display: block;
+	font-size: 14px;
 }
 
 .project-description {
@@ -175,7 +191,7 @@ li:hover {
 	padding-top: 20px;	
 }
 
-.project-link {
+.project-link-div {
 	padding: 10px;
 	font-size: 12px;
 	text-align: center;
@@ -184,26 +200,29 @@ li:hover {
 	display: inline-block;
 }
 
-.project-link a {
+.project-link-div a {
 	text-decoration: none;
-	color:rgb(211, 210, 193);
+	color:gray;
 
 }
 
-.project-link a:hover {
+.project-link-div a:hover {
 	color:rgb(248, 248, 246);
 	display: block;
 	text-decoration: none;
 }
 
-.project-link a i {
+.project-link-div a i {
 	font-size: 30px;
 }
-.project-link.github a i {
+/* .project-link-div.github a i {
 	color:gray;
-}
-.project-link.github a i:hover {
+} */
+.project-link-div.github a i:hover {
 	color:rgb(0, 0, 0);
+}
+.project-link-div.youtube a i:hover {
+	color:rgb(198, 0, 0);
 }
 
 
