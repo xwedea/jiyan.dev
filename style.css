@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 .sidepanel {
 	height: 100vh; /* Specify a height */
 	width: 300px; /* 0 width - change this with JavaScript */
@@ -15,7 +20,7 @@
 	text-align: center;
 }
 
-.picture-container img{
+.picture-div img{
 	width: 200px;
 	
 }
@@ -43,7 +48,7 @@
 	/* background-color: darkorange; */
 }
 
-.links-container {
+.links-div {
 	/* width: 200px; */
 	display: inline-grid;
 	grid-template-columns: auto auto auto auto;
@@ -68,3 +73,92 @@
 }
 
 
+/* content */
+
+.container {
+	padding-left: 300px;
+	height: 100vh;
+}
+
+.header-div {
+	padding: 50px 10px;
+}
+
+.portfolio-filter-div {
+	padding: 0;
+	margin: 0;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+}
+
+li {
+	float: left;
+	padding: 10px;
+	border-right-style: solid;
+	border-width: 1px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+	background-color: rgb(210, 210, 210);
+	cursor:pointer;
+}
+
+.projects-div {
+	padding: 20px;
+}
+
+.grid-div {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+}
+
+.project-div {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	font-size: 30px;
+	text-align: center;
+	margin: 10px;
+}
+
+.project-div img {
+	width: 100%;
+}
+
+.project-bottom-div {
+	padding: 0 30px;
+	padding-bottom: 24px;
+}
+
+.project-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.project-description {
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+
+@media (max-width: 1200px) {
+	.grid-div { 
+		grid-template-columns: repeat(1, 1fr); 
+	}
+
+  }
