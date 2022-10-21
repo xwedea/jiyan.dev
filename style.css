@@ -1,0 +1,70 @@
+.sidepanel {
+	height: 100vh; /* Specify a height */
+	width: 300px; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: rgb(0, 0, 0); /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	/* transition: 2s;  */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.picture-container img{
+	width: 200px;
+	
+}
+
+
+.name {
+	color: whitesmoke;
+	font-size: 24px;
+
+}
+
+.bio {
+	/* background-color: blueviolet; */
+	color: whitesmoke;
+	padding: 0 36px;
+}
+
+.uppersidepanel {
+	/* background-color: blue; */
+	height: 700px;
+}
+
+.bottomsidepanel {
+	height: 120px;
+	/* background-color: darkorange; */
+}
+
+.links-container {
+	/* width: 200px; */
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto;
+	/* padding: 10px; */
+}
+
+.link {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+}
+
+.link a {
+	color:gray;
+	display: block;
+	text-decoration: none;
+}
+
+.link a i {
+	display: block;
+}
+
+
