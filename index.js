@@ -94,27 +94,27 @@ function populate_portfolio() {
 			div.classList.add(tag);
 		}
 
+		const top_div = document.createElement("div");
+		top_div.className = "project-top-div";
+		div.appendChild(top_div);
+
 		const img  = document.createElement("img");
 		img.src = project['img-src'];
-		div.appendChild(img);
+		top_div.appendChild(img);
 
 		const name_div = document.createElement("div");
 		name_div.className = "project-name-div";
-		div.appendChild(name_div);
+		top_div.appendChild(name_div);
 
 		const name = document.createElement("span");
 		name.className = "project-name";
 		name.innerText = project.name;
 		name_div.appendChild(name);
 
-		const bottom_div = document.createElement("div")
-		bottom_div.className = "project-bottom-div";
-		div.appendChild(bottom_div);
-		
 		const info_div = document.createElement("info_div");
 		info_div.className = "project-info-div";
-		bottom_div.appendChild(info_div);
-
+		top_div.appendChild(info_div);
+		
 		const info = document.createElement("p");
 		info.className = "project-info";
 		info.innerText = project.info;
@@ -123,7 +123,11 @@ function populate_portfolio() {
 		const description = document.createElement("p");
 		description.className = "project-description";
 		description.innerText = project.description;
-		bottom_div.appendChild(description);
+		top_div.appendChild(description);
+		
+		const bottom_div = document.createElement("div")
+		bottom_div.className = "project-bottom-div";
+		div.appendChild(bottom_div);
 
 		const links_div = document.createElement("div");
 		links_div.className = "project-links-div";
