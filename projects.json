@@ -53,9 +53,9 @@
 		},
 		{
 			"img-src": "godot.png",
-			"name": "Google Review Scraper",
+			"name": "opersonal game",
 			"info": "Fall 2020",
-			"tags": ["personal", "abbas"],
+			"tags": ["personal", "game"],
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"links": [
 				{
@@ -70,9 +70,9 @@
 		},
 		{
 			"img-src": "godot.png",
-			"name": "Google Review Scraper",
+			"name": "school thing",
 			"info": "Fall 2020",
-			"tags": ["personal", "abbas"],
+			"tags": ["school", "abbas"],
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"links": [
 				{
