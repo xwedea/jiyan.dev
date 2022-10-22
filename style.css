@@ -112,14 +112,14 @@ body {
 	border-width: 1px;
 }
 
-ul {
+.portfolio-filter-div ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
 
-li {
+.portfolio-filter-div li {
 	float: left;
 	padding: 10px;
 	/* border-right-style: solid; */
@@ -128,7 +128,7 @@ li {
 	text-align: center;
 }
 
-li a {
+.portfolio-filter-div li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -136,7 +136,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li:hover {
+.portfolio-filter-div li:hover {
 	background-color: #c2c1ad;
 	cursor:pointer;
 }
@@ -177,10 +177,16 @@ li:hover {
 }
 
 .project-name-div {
-	/* width: 100%; */
 	background-color: #c2c1ad;
-	font-size: 24px;
+	/* background-color: #dbdad5; */
+	padding: 2px 2px;
+	font-size: 16px;
+	font-weight: bold;
 }
+
+/* .project-name {
+
+} */
 
 .project-info-div {
 	/* background-color: rgb(232, 221, 221); */
@@ -191,7 +197,10 @@ li:hover {
 .project-info {
 	margin-top: 2px;
 	display: block;
-	font-size: 14px;
+	font-size: 12px;
+	font-style: italic;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-bottom: 10px;
 }
 
 .project-description {
@@ -201,6 +210,22 @@ li:hover {
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 }
+
+.project-description-div p {
+	font-size: 15px;
+}
+
+ul.project-description {
+	padding: 0;
+	text-align: left;
+	list-style-position: inside;
+	padding-left: 18px;
+}
+.project-description li {
+	font-size: 15px;
+}
+
+
 
 .project-links-div {
 	padding-top: 20px;	
@@ -227,7 +252,7 @@ li:hover {
 }
 
 .project-link-div a i {
-	font-size: 30px;
+	font-size: 20px;
 }
 /* .project-link-div.github a i {
 	color:gray;

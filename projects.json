@@ -2,10 +2,14 @@
 	"projects": [
 		{
 			"img-src": "godot.png",
-			"name": "Google Review Scraper",
+			"name": "Google Review Scraper What Happens When Long",
 			"info": "Fall 2020",
-			"tags": ["personal", "abbas"],
-			"description": "Lorem ipsum dolor sit amet,sdfajkhas  sdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ldkjfhaslkdjfhlaskdjhflkjasdfh consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "AUUUUUUUUUUU",
+				"list": ["lorem", "ipsum"]
+			}, 
 			"links": [
 				{
 					"to": "github",
@@ -21,59 +25,12 @@
 			"img-src": "godot.png",
 			"name": "Google Review Scraper",
 			"info": "Fall 2020",
-			"tags": ["personal", "abbas"],
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-			"links": [
-				{
-					"to": "github",
-					"url": "https://github.com/xwedea/googleScraper"
-				},
-				{
-					"to": "youtube",
-					"url": "https://youtube.com"
-				}
-			]
-		},
-		{
-			"img-src": "godot.png",
-			"name": "Google Review Scraper",
-			"info": "Fall 2020",
-			"tags": ["personal", "abbas"],
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-			"links": [
-				{
-					"to": "github",
-					"url": "https://github.com/xwedea/googleScraper"
-				},
-				{
-					"to": "youtube",
-					"url": "https://youtube.com"
-				}
-			]
-		},
-		{
-			"img-src": "godot.png",
-			"name": "opersonal game",
-			"info": "Fall 2020",
-			"tags": ["personal", "game"],
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-			"links": [
-				{
-					"to": "github",
-					"url": "https://github.com/xwedea/googleScraper"
-				},
-				{
-					"to": "youtube",
-					"url": "https://youtube.com"
-				}
-			]
-		},
-		{
-			"img-src": "godot.png",
-			"name": "school thing",
-			"info": "Fall 2020",
-			"tags": ["school", "abbas"],
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "ov yeah",
+				"list": ["asdf", "ipsucvbvcbvm"]
+			}, 
 			"links": [
 				{
 					"to": "github",
@@ -85,5 +42,6 @@
 				}
 			]
 		}
+		
 	]
 }

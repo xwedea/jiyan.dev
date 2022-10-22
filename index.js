@@ -99,10 +99,22 @@ function populate_portfolio(tag_filters) {
 		info.innerText = project.info;
 		info_div.appendChild(info);
 		
-		const description = document.createElement("p");
-		description.className = "project-description";
-		description.innerText = project.description;
-		label.appendChild(description);
+		const description_div = document.createElement("div");
+		description_div.className = "project-description-div";
+		label.appendChild(description_div);
+
+		const description_p = document.createElement("p");
+		description_p.innerText = project.description.paragraph;
+		description_div.appendChild(description_p);
+
+		const description_ul = document.createElement("ul");
+		description_ul.className = "project-description";
+		for (let e of project.description.list) {
+			const list_element = document.createElement("li");
+			list_element.innerText = e;
+			description_ul.appendChild(list_element);
+		}
+		description_div.appendChild(description_ul);
 		
 		const bottom_div = document.createElement("div")
 		bottom_div.className = "project-bottom-div";
