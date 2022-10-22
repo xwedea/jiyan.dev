@@ -1,91 +1,50 @@
 import projectsJson from './projects.json' assert {type: 'json'};
 
+const all = document.querySelector(".portfolio-filter-div #all");
+const school = document.querySelector(".portfolio-filter-div #school-projects");
+const game = document.querySelector(".portfolio-filter-div #game-development");
+const misc = document.querySelector(".portfolio-filter-div #miscellaneous");
+const filters = [all, school, game, misc];
+const projects = document.querySelectorAll(".project-div");
+const portfolio_tags = ["school", "game", "personal"];
 
-const style = () => {
-	const allButton = document.querySelector(".portfolio-filter-div #all");
-	allButton.style.background = "#c2c1ad";
 
-
-	// const filters = document.querySelectorAll(".portfolio-filter-div .li");
-	// for (let filter of filters) {
-	// 	filter.onmouseover = () => {
-	// 		filter.background = "#c2c1ad";
-	// 	}
-	// }
+function init() {
+	init_style();
+	setFilterOnclicks();
+	populate_portfolio(portfolio_tags);
 }
 
-const filter = () => {
-	const all = document.querySelector(".portfolio-filter-div #all");
-	const school = document.querySelector(".portfolio-filter-div #school-projects");
-	const game = document.querySelector(".portfolio-filter-div #game-development");
-	const misc = document.querySelector(".portfolio-filter-div #miscellaneous");
-	const filters = [all, school, game, misc];
+const init_style = () => {
+	all.style.background = "#c2c1ad";
+}
 
-	const projects = document.querySelectorAll(".project-div");
 
+function highlightNavButton(selected) {
+	for (let filter of filters) {
+		filter.style.background = "";
+	}
+	selected.style.background = "#c2c1ad";
+}
+
+const setFilterOnclicks = () => {
 	all.onclick = () => {
-		for (let filter of filters) {
-			filter.style.background = "";
-		}
-		all.style.background = "#c2c1ad";
+		highlightNavButton(all);
 		populate_portfolio(["school", "personal", "game"]);
-		// for (let project of projects) {
-		// 	project.style.display = "block";
-		// }
-
 	}
-
 	school.onclick = () => {
-		for (let filter of filters) {
-			filter.style.background = "";
-			// console.log(filter.innerHTML);
-		}
-		school.style.background = "#c2c1ad";
+		highlightNavButton(school);
 		populate_portfolio(["school"]);
-		// const school_projects = document.querySelectorAll(".project-div.school")
-		// for (let project of projects) {
-		// 	project.style.display = "none";
-		// }
-		// for (let project of school_projects) {
-		// 	project.style.display = "block";
-		// 	console.log(project.classList);
-		// }
 	}
-
 	game.onclick = () => {
-		for (let filter of filters) {
-			filter.style.background = "";
-		}
-		game.style.background = "#c2c1ad";
+		highlightNavButton(game);
 		populate_portfolio(["game"]);
-
-		// const game_projects = document.querySelectorAll(".project-div.game")
-		// for (let project of projects) {
-		// 	project.style.display = "none";
-		// }
-		// for (let project of game_projects) {
-		// 	project.style.display = "block";
-		// 	console.log(project.innerHTML);
-		// }
 	}
-
 	misc.onclick = () => {
-		for (let filter of filters) {
-			filter.style.background = "";
-		}
-		misc.style.background = "#c2c1ad";
+		highlightNavButton(misc);
 
 		populate_portfolio(["misc"]);
-		// misc_projects = document.querySelectorAll(".project-div.misc")
-		// for (let project of projects) {
-		// 	project.style.display = "none";
-		// }
-		// for (let project of misc_projects) {
-		// 	project.style.display = "block";
-		// 	console.log(project.innerHTML);
-		// }
 	}
-
 }
 
 function populate_portfolio(tag_filters) {
@@ -94,8 +53,6 @@ function populate_portfolio(tag_filters) {
 	let projects = projectsJson.projects;
 
 	for (let project of projects) {
-		// if (!project.tags.includes(filter)) continue;
-
 		let passFilter = false;
 		for (let filter of tag_filters) {
 			if (project.tags.includes(filter)) {
@@ -180,15 +137,12 @@ function populate_portfolio(tag_filters) {
 					break;
 			}
 		}
-
-
 		grid_div.appendChild(div);
 	}
 }
 
-style();
-filter();
-// populate_portfolio();
+init();
+
 
 
 
