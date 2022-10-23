@@ -3,8 +3,8 @@ import projectsJson from './projects.json' assert {type: 'json'};
 const all = document.querySelector(".portfolio-filter-div #all");
 const school = document.querySelector(".portfolio-filter-div #school-projects");
 const game = document.querySelector(".portfolio-filter-div #game-development");
-const misc = document.querySelector(".portfolio-filter-div #miscellaneous");
-const filters = [all, school, game, misc];
+const personal = document.querySelector(".portfolio-filter-div #personal");
+const filters = [all, school, game, personal];
 const projects = document.querySelectorAll(".project-div");
 const portfolio_tags = ["school", "game", "personal"];
 
@@ -40,10 +40,9 @@ const setFilterOnclicks = () => {
 		highlightNavButton(game);
 		populate_portfolio(["game"]);
 	}
-	misc.onclick = () => {
-		highlightNavButton(misc);
-
-		populate_portfolio(["misc"]);
+	personal.onclick = () => {
+		highlightNavButton(personal);
+		populate_portfolio(["personal"]);
 	}
 }
 

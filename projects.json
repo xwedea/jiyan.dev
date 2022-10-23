@@ -1,14 +1,78 @@
 {
 	"projects": [
 		{
-			"img-src": "chatapp.png",
+			"img-src": "godot.png",
+			"name": "jiyan.dev",
+			"info": "Fall 2022",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "Portfolio website",
+				"list": 
+				[
+					"Yes, this one",
+					"Responsive design with HTML, CSS, JS"
+				]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/jiyan.dev"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "GDC Platformer",
+			"info": "Fall 2022",
+			"tags": ["game"],
+			"description": 
+			{
+				"paragraph": "2D Pixel art side platformer game project of Game Development Club @ GW",
+				"list": 
+				[
+					"Godot Engine",
+					"GDScript",
+					"Developing this tutorial project, to get familiar with 2D platformer games"
+				]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/gdc_platformer"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Blietzkrieg",
+			"info": "Summer 2022",
+			"tags": ["personal", "game"],
+			"description": 
+			{
+				"paragraph": "3D Tank combat mechanics",
+				"list": 
+				[
+					"C++",
+					"Unreal Engine 5"
+				]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/Blietzkrieg"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
 			"name": "Chat Application",
 			"info": "Fall 2021",
 			"tags": ["personal"],
 			"description": 
 			{
-				"paragraph": "Multi-client chat server implementation with Java Socket",
-				"list": ["Java Threads", "JFrame API: GUI" ]
+				"paragraph": "Multi-client chat server, using sockets",
+				"list": ["Java", "Concurrent programming with threads", "JFrame GUI programming" ]
 			}, 
 			"links": [
 				{
@@ -25,7 +89,7 @@
 			"description": 
 			{
 				"paragraph": "Google Maps review scraper",
-				"list": ["Puppeteer.js", "Input: URL to place reviews", "Output: reviews in JSON"]
+				"list": ["JavaScript", "Puppeteer.js", "Input: URL to place reviews", "Output: reviews in JSON"]
 			}, 
 			"links": [
 				{
@@ -36,22 +100,68 @@
 		},
 		{
 			"img-src": "godot.png",
-			"name": "Shopping Service",
+			"name": "Blog",
+			"info": "Summer 2020",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "Blogging website",
+				"list": 
+				[
+					"JavaScript",
+					"Node.js app",
+					"MongoDB NoSQL database"
+				]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/blog-application"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "To Do List",
+			"info": "Summer 2020",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "Add, Remove, Mark completed",
+				"list": 
+				[
+					"JavaScript",
+					"Task categorization"
+				]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/todolist"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Shopping Cart",
 			"info": "Database Systems",
 			"tags": ["school"],
 			"description": 
 			{
-				"paragraph": "Shopping website",
+				"paragraph": "Minimalistic shopping website",
 				"list": 
 				[
+					"Python",
 					"Flask Web Framework", 
 					"Sqlite3 Database", 
-					"Users can sign up, edit their cart and checkout",
-					"written in Python "
+					"Users can sign up, edit their cart and checkout"
 				]
 				}, 
 			"links": [
-				
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/shopping-cart"
+				}
 			]
 		},
 		{
@@ -62,7 +172,26 @@
 			"description": 
 			{
 				"paragraph": "Command line shell application",
-				"list": ["C"]
+				"list": ["C", "Create pipelines, run background tasks and redirect program output to files"]
+			}, 
+			"links": [
+				
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Search Engine",
+			"info": "Computer Architecture",
+			"tags": ["school"],
+			"description": 
+			{
+				"paragraph": "Ranking files with relevance to the search query",
+				"list": 
+				[
+					"C", 
+					"Create pipelines, run background tasks and redirect program output to files",
+					"Optimized speed, using binary search tree algorithms"
+				]
 			}, 
 			"links": [
 				

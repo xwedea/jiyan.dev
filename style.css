@@ -159,7 +159,6 @@ body {
 	padding: 10px;
 	padding-bottom: 0;
 	box-shadow: 1px 1px 5px 1px rgba(20,20,20,0.4);
-	/* width: 270px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
