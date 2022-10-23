@@ -149,7 +149,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr)); 
 	grid-auto-rows: 1fr;
-	grid-gap: 20px 2%;
+	grid-gap: 20px 14px;
 	max-width: 1200px;
 }
 
@@ -159,15 +159,15 @@ body {
 	padding: 10px;
 	padding-bottom: 0;
 	box-shadow: 1px 1px 5px 1px rgba(20,20,20,0.4);
-	/* max-width: 350px; */
-	/* width: 90%; */
+	/* width: 270px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
 .project-div img {
-	width: 100%;
+	width: 90%;
+	height: 200px; 
 	border: 1px solid black;
 	display: none;
 }
@@ -218,8 +218,8 @@ body {
 ul.project-description {
 	padding: 0;
 	text-align: left;
-	list-style-position: inside;
-	padding-left: 18px;
+	padding-left: 12%;
+	padding-top: 10px;
 }
 .project-description li {
 	font-size: 15px;

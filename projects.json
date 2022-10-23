@@ -1,23 +1,19 @@
 {
 	"projects": [
 		{
-			"img-src": "godot.png",
-			"name": "Google Review Scraper What Happens When Long",
-			"info": "Fall 2020",
+			"img-src": "chatapp.png",
+			"name": "Chat Application",
+			"info": "Fall 2021",
 			"tags": ["personal"],
 			"description": 
 			{
-				"paragraph": "AUUUUUUUUUUU",
-				"list": ["lorem", "ipsum"]
+				"paragraph": "Multi-client chat server implementation with Java Socket",
+				"list": ["Java Threads", "JFrame API: GUI" ]
 			}, 
 			"links": [
 				{
 					"to": "github",
-					"url": "https://github.com/xwedea/googleScraper"
-				},
-				{
-					"to": "youtube",
-					"url": "https://youtube.com"
+					"url": "https://github.com/xwedea/chat-application"
 				}
 			]
 		},
@@ -28,18 +24,48 @@
 			"tags": ["personal"],
 			"description": 
 			{
-				"paragraph": "ov yeah",
-				"list": ["asdf", "ipsucvbvcbvm"]
+				"paragraph": "Google Maps review scraper",
+				"list": ["Puppeteer.js", "Input: URL to place reviews", "Output: reviews in JSON"]
 			}, 
 			"links": [
 				{
 					"to": "github",
 					"url": "https://github.com/xwedea/googleScraper"
-				},
-				{
-					"to": "youtube",
-					"url": "https://youtube.com"
 				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Shopping Service",
+			"info": "Database Systems",
+			"tags": ["school"],
+			"description": 
+			{
+				"paragraph": "Shopping website",
+				"list": 
+				[
+					"Flask Web Framework", 
+					"Sqlite3 Database", 
+					"Users can sign up, edit their cart and checkout",
+					"written in Python "
+				]
+				}, 
+			"links": [
+				
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Shell Application",
+			"info": "Systems Programming",
+			"tags": ["school"],
+			"description": 
+			{
+				"paragraph": "Command line shell application",
+				"list": ["C"]
+			}, 
+			"links": [
+				
 			]
 		}
 		
