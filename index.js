@@ -109,7 +109,7 @@ function populate_portfolio(tag_filters) {
 		top_div.appendChild(label);
 
 		const img  = document.createElement("img");
-		img.src = project['img-src'];
+		img.src = "assets/" + project['img-src'];
 		label.appendChild(img);
 
 		const name_div = document.createElement("div");
