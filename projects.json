@@ -2,12 +2,12 @@
 	"projects": [
 		{
 			"img-src": "godot.png",
-			"name": "jiyan.dev",
+			"name": "Portfolio Website",
 			"info": "Fall 2022",
 			"tags": ["personal"],
 			"description": 
 			{
-				"paragraph": "Portfolio website",
+				"paragraph": "jiyan.dev",
 				"list": 
 				[
 					"Yes, this one",
@@ -83,66 +83,6 @@
 		},
 		{
 			"img-src": "godot.png",
-			"name": "Google Review Scraper",
-			"info": "Fall 2020",
-			"tags": ["personal"],
-			"description": 
-			{
-				"paragraph": "Google Maps review scraper",
-				"list": ["JavaScript", "Puppeteer.js", "Input: URL to place reviews", "Output: reviews in JSON"]
-			}, 
-			"links": [
-				{
-					"to": "github",
-					"url": "https://github.com/xwedea/googleScraper"
-				}
-			]
-		},
-		{
-			"img-src": "godot.png",
-			"name": "Blog",
-			"info": "Summer 2020",
-			"tags": ["personal"],
-			"description": 
-			{
-				"paragraph": "Blogging website",
-				"list": 
-				[
-					"JavaScript",
-					"Node.js app",
-					"MongoDB NoSQL database"
-				]
-			}, 
-			"links": [
-				{
-					"to": "github",
-					"url": "https://github.com/xwedea/blog-application"
-				}
-			]
-		},
-		{
-			"img-src": "godot.png",
-			"name": "To Do List",
-			"info": "Summer 2020",
-			"tags": ["personal"],
-			"description": 
-			{
-				"paragraph": "Add, Remove, Mark completed",
-				"list": 
-				[
-					"JavaScript",
-					"Task categorization"
-				]
-			}, 
-			"links": [
-				{
-					"to": "github",
-					"url": "https://github.com/xwedea/todolist"
-				}
-			]
-		},
-		{
-			"img-src": "godot.png",
 			"name": "Shopping Cart",
 			"info": "Database Systems",
 			"tags": ["school"],
@@ -194,6 +134,67 @@
 			}, 
 			"links": [
 				
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Google Review Scraper",
+			"info": "Fall 2020",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "Google Maps review scraper",
+				"list": ["JavaScript", "Puppeteer.js", "Output reviews of a place in Google Maps, in JSON format"]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/googleScraper"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Blog Website",
+			"info": "Summer 2020",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "Add and remove blog entries to NoSQL database",
+				"list": 
+				[
+					"JavaScript",
+					"Node.js app",
+					"MongoDB"
+				]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/blog-application"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "To Do List App",
+			"info": "Summer 2020",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "Add, Remove, Mark completed",
+				"list": 
+				[
+					"JavaScript",
+					"Node.js app",
+					"Task categorization"
+				]
+			}, 
+			"links": [
+				{
+					"to": "github",
+					"url": "https://github.com/xwedea/todolist"
+				}
 			]
 		}
 		

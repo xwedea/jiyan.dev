@@ -7,16 +7,48 @@ const personal = document.querySelector(".portfolio-filter-div #personal");
 const filters = [all, school, game, personal];
 const projects = document.querySelectorAll(".project-div");
 const portfolio_tags = ["school", "game", "personal"];
-
+const uppersidepanel = document.querySelector(".uppersidepanel");
+const uppersidepanel_label = uppersidepanel.querySelector("label");
+const container = document.querySelector(".container");
 
 function init() {
 	init_style();
 	setFilterOnclicks();
 	populate_portfolio(portfolio_tags);
+
+	if (window.innerWidth <= 880) {
+		mobileScrollButton();
+	}
+
 }
 
 const init_style = () => {
 	all.style.background = "#c2c1ad";
+}
+
+function mobileScrollButton() {
+	const scroll_div = document.createElement("scroll-div");
+	scroll_div.className = "scroll-div"
+
+	const scroll_text = document.createElement("span");
+	scroll_text.innerText = "See Portfolio"
+	scroll_div.appendChild(scroll_text);
+
+	uppersidepanel_label.appendChild(scroll_div);
+
+	scroll_div.onclick = () => {		
+		container.scrollIntoView();
+	}
+
+	window.onresize = () => {
+		if (window.innerWidth > 880) {
+			scroll_div.style.display = "none";
+		}
+		else {
+			scroll_div.style.display = "inline-block";
+
+		}
+	}
 }
 
 
@@ -65,7 +97,7 @@ function populate_portfolio(tag_filters) {
 		div.classList.add("project-div");
 		for (let tag of project.tags) {
 			div.classList.add(tag);
-			console.log(div.className);
+			// console.log(div.className);
 		}
 
 		const top_div = document.createElement("div");
@@ -140,7 +172,6 @@ function populate_portfolio(tag_filters) {
 				case "github":
 					link_i.className = "fa-brands fa-github fa-2x";
 					link_div.classList.add("github");
-					console.log(link_div.className);
 					break;
 				case "youtube":
 					link_i.className = "fa-brands fa-youtube";

@@ -4,6 +4,7 @@
 	/* font-family: 'Courier New', monospace; */
 	/* font-family: 'Manrope', sans-serif; */
 	font-family: 'Rajdhani', sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 
 .sidepanel {
 	height: 100vh;
+	/* height: 100%; */
 	width: 300px;
 	position: fixed; 
 	z-index: 1; 
@@ -41,6 +43,7 @@ body {
 .bio {
 	color: rgb(190, 190, 190);
 	padding: 0 36px;
+	/* padding-bottom: 18px; */
 }
 
 .uppersidepanel {
@@ -48,8 +51,9 @@ body {
 }
 
 .bottomsidepanel {
-	padding-bottom: 0px;
+	/* padding-bottom: 0px; */
 	/* background-color: darkorange; */
+	padding-bottom: 25%;
 }
 
 .links-div {
@@ -265,6 +269,28 @@ ul.project-description {
 
 
 /* Response */
+.scroll-div {
+	padding: 6px;
+	color: black;
+	background-color: #c3bdbd;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+.scroll-div span {
+	user-select: none;
+	display: block;
+}
+
+.scroll-div i {
+	font-size: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	/* color: white; */
+}
+
 @media (max-width: 880px) {
 	.sidepanel {
 		width: 100%;
@@ -273,6 +299,7 @@ ul.project-description {
 
 	.container {
 		margin-left: 0;
+		height: 100vh;
 	}
 
 	.uppersidepanel {
@@ -287,9 +314,9 @@ ul.project-description {
 		font-size: 18px;
 	}
 
-	.bottomsidepanel {
+	/* .bottomsidepanel {
 		margin-bottom: 22%;
-	}
+	} */
 }
 
 
