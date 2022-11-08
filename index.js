@@ -1,11 +1,17 @@
-import projectsJson from './projects.json' assert {type: 'json'};
+// import projectsJson from './projects.json' assert {type: 'json'};
+// import projectsJson from './projects.json';
+// import projects from "./projects.json";
+
+import projectsJson from "./data.js"
+console.log(projectsJson);
+
 
 const all = document.querySelector(".portfolio-filter-div #all");
 const school = document.querySelector(".portfolio-filter-div #school-projects");
 const game = document.querySelector(".portfolio-filter-div #game-development");
 const personal = document.querySelector(".portfolio-filter-div #personal");
 const filters = [all, school, game, personal];
-const projects = document.querySelectorAll(".project-div");
+const projects_div = document.querySelectorAll(".project-div");
 const portfolio_tags = ["school", "game", "personal"];
 const uppersidepanel = document.querySelector(".uppersidepanel");
 const uppersidepanel_label = uppersidepanel.querySelector("label");

@@ -1,4 +1,4 @@
-{
+export default {
 	"projects": [
 		{
 			"img-src": "godot.png",
