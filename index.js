@@ -1,10 +1,4 @@
-// import projectsJson from './projects.json' assert {type: 'json'};
-// import projectsJson from './projects.json';
-// import projects from "./projects.json";
-
 import projectsJson from "./data.js"
-console.log(projectsJson);
-
 
 const all = document.querySelector(".portfolio-filter-div #all");
 const school = document.querySelector(".portfolio-filter-div #school-projects");
