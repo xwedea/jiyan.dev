@@ -92,7 +92,7 @@ export default {
 			"tags": ["school"],
 			"description": 
 			{
-				"paragraph": "Develop a container management system (similar to Docker) in xv6 operating system",
+				"paragraph": "A container management system (similar to Docker) in xv6 operating system",
 				"list": 
 				[
 					"Added new features: threads, new kernel locks, new scheduling algorithm",
