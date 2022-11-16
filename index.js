@@ -10,6 +10,7 @@ const portfolio_tags = ["school", "game", "personal"];
 const uppersidepanel = document.querySelector(".uppersidepanel");
 const uppersidepanel_label = uppersidepanel.querySelector("label");
 const container = document.querySelector(".container");
+const sidepanel = document.querySelector(".sidepanel");
 
 function init() {
 	init_style();
@@ -18,6 +19,19 @@ function init() {
 
 	if (window.innerWidth <= 880) {
 		mobileScrollButton();
+	}
+
+	window.onresize = () => {
+		// if (window.innerWidth > 880) {
+		// 	scroll_div.style.display = "none";
+		// }
+		// else {
+		// 	scroll_div.style.display = "inline-block";
+
+		// }
+
+		sidepanel.style.height = window.innerHeight;
+		// console.log(window.innerHeight);
 	}
 
 }
@@ -40,15 +54,7 @@ function mobileScrollButton() {
 		container.scrollIntoView();
 	}
 
-	window.onresize = () => {
-		if (window.innerWidth > 880) {
-			scroll_div.style.display = "none";
-		}
-		else {
-			scroll_div.style.display = "inline-block";
-
-		}
-	}
+	
 }
 
 

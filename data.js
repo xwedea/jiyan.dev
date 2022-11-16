@@ -61,6 +61,10 @@ export default {
 				{
 					"to": "github",
 					"url": "https://github.com/xwedea/Blietzkrieg"
+				},
+				{
+					"to": "youtube",
+					"url": "https://www.youtube.com/watch?v=BDOmJblH0Vg"
 				}
 			]
 		},
@@ -78,6 +82,27 @@ export default {
 				{
 					"to": "github",
 					"url": "https://github.com/xwedea/chat-application"
+				}
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "OS Container",
+			"info": "Summer 2020",
+			"tags": ["school"],
+			"description": 
+			{
+				"paragraph": "Develop a container management system (similar to Docker) in xv6 operating system",
+				"list": 
+				[
+					"Added new features: threads, new kernel locks, new scheduling algorithm",
+					"Containers are able to use only a restricted number of system resources",
+					"Each container only has access to a subset of the file system"
+				]
+			}, 
+			"links": [
+				{
+					
 				}
 			]
 		},
