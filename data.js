@@ -23,23 +23,23 @@ export default {
 		},
 		{
 			"img-src": "godot.png",
-			"name": "GDC Platformer",
+			"name": "George Washington 2D",
 			"info": "Fall 2022",
-			"tags": ["game"],
+			"tags": ["game", "personal"],
 			"description": 
 			{
-				"paragraph": "2D Pixel art side platformer game project of Game Development Club @ GW",
+				"paragraph": "2022-23 Annual project of Game Development Club @ GWU",
 				"list": 
 				[
-					"Godot Engine",
-					"GDScript",
-					"Developing this tutorial project, to get familiar with 2D platformer games"
+					"Leading the project and working on the game mechanics & programming",
+					"Godot Engine & GDScript",
+					"2D Pixel art"
 				]
 			}, 
 			"links": [
 				{
 					"to": "github",
-					"url": "https://github.com/xwedea/gdc_platformer"
+					"url": "https://github.com/xwedea/george-washington-2D"
 				}
 			]
 		},
