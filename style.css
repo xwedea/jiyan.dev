@@ -214,15 +214,22 @@ body {
 	word-wrap: break-word;
 }
 
+.project-description-div {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* align-items: center; */
+}
+
 .project-description-div p {
 	font-size: 15px;
 }
 
 ul.project-description {
-	padding: 0;
-	text-align: left;
-	padding-left: 12%;
-	padding-top: 10px;
+	list-style: none;
+	padding-top: 8px;
+	text-align: center;
 }
 .project-description li {
 	font-size: 15px;
@@ -231,7 +238,7 @@ ul.project-description {
 
 
 .project-links-div {
-	padding-top: 20px;	
+	padding-top: 8px;	
 }
 
 .project-link-div {

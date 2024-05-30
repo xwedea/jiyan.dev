@@ -2,16 +2,15 @@ export default {
 	"projects": [
 		{
 			"img-src": "godot.png",
-			"name": "Portfolio Website",
-			"info": "Fall 2022",
-			"tags": ["personal"],
+			"name": "AI Story Generator",
+			"info": "Capstone Project",
+			"tags": ["school"],
 			"description": 
 			{
-				"paragraph": "jiyan.dev",
+				"paragraph": "Interactive dynamic story generation using multiple generative AIs, like stable diffusion and openAI, to produce digital story books with images and audio",
 				"list": 
 				[
-					"Yes, this one",
-					"Responsive design with HTML, CSS, JS"
+					"Built with Python Flask and React",
 				]
 			}, 
 			"links": [
@@ -23,23 +22,38 @@ export default {
 		},
 		{
 			"img-src": "godot.png",
-			"name": "George Washington 2D",
-			"info": "Fall 2022",
-			"tags": ["game", "personal"],
+			"name": "Sentiment Analysis ML",
+			"info": "Fall 2021",
+			"tags": ["personal"],
 			"description": 
 			{
-				"paragraph": "2022-23 Annual project of Game Development Club @ GWU",
+				"paragraph": "Trained machine learning models on imbd reviews using Tensorflow and Pandas",
 				"list": 
 				[
-					"Leading the project and working on the game mechanics & programming",
-					"Godot Engine & GDScript",
-					"2D Pixel art"
+					
+				]
+			}, 
+			"links": [
+	
+			]
+		},
+		{
+			"img-src": "godot.png",
+			"name": "Portfolio Website",
+			"info": "Fall 2022",
+			"tags": ["personal"],
+			"description": 
+			{
+				"paragraph": "Responsive design with plain HTML, CSS, JS",
+				"list": 
+				[
+					"jiyan.dev"
 				]
 			}, 
 			"links": [
 				{
 					"to": "github",
-					"url": "https://github.com/xwedea/george-washington-2D"
+					"url": "https://github.com/xwedea/jiyan.dev"
 				}
 			]
 		},
@@ -50,11 +64,10 @@ export default {
 			"tags": ["personal", "game"],
 			"description": 
 			{
-				"paragraph": "3D Tank combat mechanics",
+				"paragraph": "3D Tank combat mechanics with Unreal Engine 5 and C++",
 				"list": 
 				[
-					"C++",
-					"Unreal Engine 5"
+				
 				]
 			}, 
 			"links": [
@@ -75,7 +88,7 @@ export default {
 			"tags": ["personal"],
 			"description": 
 			{
-				"paragraph": "Multi-client chat server, using sockets",
+				"paragraph": "Send and receive text with multiple users, built with Java ServerSocket",
 				"list": ["Java", "Concurrent programming with threads", "JFrame GUI programming" ]
 			}, 
 			"links": [
@@ -168,8 +181,8 @@ export default {
 			"tags": ["personal"],
 			"description": 
 			{
-				"paragraph": "Google Maps review scraper",
-				"list": ["JavaScript", "Puppeteer.js", "Output reviews of a place in Google Maps, in JSON format"]
+				"paragraph": "Scrape google map reviews in JSON format for a given location, built with Puppeteer.js",
+				"list": []
 			}, 
 			"links": [
 				{
