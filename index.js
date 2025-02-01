@@ -185,6 +185,10 @@ function populate_portfolio(tag_filters) {
 					link_i.className = "fa-brands fa-youtube";
 					link_div.classList.add("youtube");
 					break;
+				case "google-play":
+					link_i.className = "fa-brands fa-google-play"
+					link_div.classList.add("google-play");
+					break;
 			}
 		}
 		grid_div.appendChild(div);

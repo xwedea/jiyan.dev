@@ -15,7 +15,7 @@ body {
 .sidepanel {
 	height: 100vh;
 	/* height: 100%; */
-	width: 300px;
+	width: 400px;
 	position: fixed; 
 	z-index: 1; 
 	top: 0;
@@ -88,7 +88,7 @@ body {
 /* content */
 
 .container {
-	margin-left: 300px;
+	margin-left: 400px;
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color: whitesmoke;
